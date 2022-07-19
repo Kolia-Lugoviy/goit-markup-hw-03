@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+<head >
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,25 +14,28 @@
 </head>
 <body>
 
-    <header>
-<nav>
-        <a href="WebStudio" class="header-web"><span style="color: #2196F3">Web</span>Studio</a>
-    <ul" >
-        <li>
-            <a href="" class="header-studio hover focus">Студия</a>
-        </li>
-        <li>
-            <a href="http://127.0.0.1:5500/porfolio.html" class="header-port-cont hover focus">Портфолио</a>
-        </li>
-        <li>
-            <a href="" class="header-contact hover focus ">Контакты</a>
-        </li>
-    </ul>
-</nav>
-<ul >
-    <li><a href="mailto:info@devstudio.com" class="header-mail hover focus">info@devstudio.com</a></li>
-    <li><a href="tel:+380961111111" class="header-tel hover focus" >+38 096 111 11 11</a></li>
-</ul>
+    <header class="header-header">
+        <div class="container header-container">
+            <nav class="header-container">
+                <a href="WebStudio" class="header-web"><span style="color: #2196F3">Web</span>Studio</a>
+            <ul class="header-container">
+                <li class="header-li">
+                    <a href="" class="header-studio hover focus">Студия</a>
+                </li>
+                <li class="header-li">
+                    <a href="http://127.0.0.1:5500/porfolio.html" class="header-port-cont hover focus">Портфолио</a>
+                </li>
+                <li class="header-li">
+                    <a href="" class="header-contact hover focus ">Контакты</a>
+                </li >
+            </ul>
+        </nav >
+        <ul class="header-container">
+            <li><a href="mailto:info@devstudio.com" class="header-mail hover focus">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="header-tel hover focus" >+38 096 111 11 11</a></li>
+        </ul>
+        </div>
+
         
         
 
@@ -42,96 +46,126 @@
     
     <main>
         <!-- hero -->
-        <section class="section-title">
-            <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-            <button class="button hover-h focus-h">Заказать услугу</button> 
-        </section>
+        
+            <section class="section-title section">
+            <div class="container">
+                <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+                <button class="button hover-h focus-h">Заказать услугу</button> 
+            </div>
+            </section>
+        
 
-        <section>
+
+        <section class="section">
+        <div class="container"> 
             <ul class="list">
-                <li>
+                <li class="list-title-li">
                 <h3 class="list-title">Внимание к деталя</h3>
-                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                <p class="list-title-p">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
+                <li class="list-title-li">
                 <h3 class="list-title">Пунктуальность</h3>
-                <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <p class="list-title-p">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="list-title-li" >
                 <h3 class="list-title" >Планирование</h3>
-                <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <p class="list-title-p">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="list-title-li">
                 <h3 class="list-title" >Современные технологии</h3>
-                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <p class="list-title-p">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+        </div>
         </section>
-        <section>
-            <h2 class="title-work" >Чем мы занимаемся</h2>
 
-            <ul class="img">
-                <li>
-                <img src="./images/work/w1.jpg" alt="w1" width="370" height="294">
+        <section class="section">
+            <div class="container">
+                <h2 class="title-work" >Чем мы занимаемся</h2>
+
+                <ul class="img img-work">
+                    <li>
+                    <img src="./images/work/w1.jpg" alt="w1" width="370" height="294">
+                    </li>
+                    <li>
+                    <img src="./images/work/w2.jpg" alt="w2" width="370" height="294">
+                    </li>
+                    <li>
+                    <img src="./images/work/w3.jpg" alt="w3" width="370" height="294">
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+
+        </section>
+
+        <section class="section-work section">
+            <div class="container">
+                <H2 class="title-work">Наша команда</H2>
+                <ul class="work-ul">
+                <li class="work-ul-li">
+                    <img src="./images/teem/worker4.jpg" alt="worker4" width="270" height="260">
+                    <div class="work-h-p">
+                    <h3 class="list-work">Игорь Демьяненко</h3>
+                    <p lang="en" class="list-work-prof">Product Designer</p>
+                    </div>
+                    
                 </li>
-                <li>
-                <img src="./images/work/w2.jpg" alt="w2" width="370" height="294">
+                <li class="work-ul-li">
+                    <img src="./images/teem/worker1.jpg" alt="worker1" width="270" height="260">
+                    <div class="work-h-p">
+                    <h3 class="list-work">Ольга Репина</h3>
+                    <p lang="en" class="list-work-prof">Frontend Developer</p>
+                    </div>
+                    
                 </li>
-                <li>
-                <img src="./images/work/w3.jpg" alt="w3" width="370" height="294">
+                <li class="work-ul-li">
+                    <img src="./images/teem/worker2.jpg" alt="worker2" width="270" height="260">
+                    <div class="work-h-p">
+                    <h3 class="list-work" >Николай Тарасов</h3>
+                    <p lang="en" class="list-work-prof">Marketing</p>
+                    </div>
+                    
                 </li>
-            </ul>
-        </section>
+                <li class="work-ul-li">
+                    <img src="./images/teem/worker3.jpg" alt="worker3" width="270" height="260">
+                    <div class="work-h-p"> 
+                        <h3 class="list-work">Михаил Ермаков</h3>
+                        <p lang="en" class="list-work-prof" >UI Designer</p>
+                    </div>
 
-
-        </section>
-
-        <section class="section-work">
-            <H2 class="title-work">Наша команда</H2>
-            <ul >
-            <li >
-                <img src="./images/teem/worker4.jpg" alt="worker4" width="270" height="260">
-                <h3 class="list-work">Игорь Демьяненко</h3>
-                <p lang="en" class="list-work-prof">Product Designer</p>
-            </li>
-            <li>
-                <img src="./images/teem/worker1.jpg" alt="worker1" width="270" height="260">
-                <h3 class="list-work">Ольга Репина</h3>
-                <p lang="en" class="list-work-prof">Frontend Developer</p>
-            </li>
-            <li>
-                <img src="./images/teem/worker2.jpg" alt="worker2" width="270" height="260">
-                <h3 class="list-work" >Николай Тарасов</h3>
-                <p lang="en" class="list-work-prof">Marketing</p>
-            </li>
-            <li>
-                <img src="./images/teem/worker3.jpg" alt="worker3" width="270" height="260">
-                <h3 class="list-work">Михаил Ермаков</h3>
-                <p lang="en" class="list-work-prof" >UI Designer</p>
-            </li>
-            </ul>
-        </section>
+                </li>
+                </ul>
+            </section>
+    
+            </div>
 
     </main>
 
 
 
     <footer class="footer">
-        <a href="WebStudio" class="header-web-white"><span style="color: #2196F3">Web</span>Studio</a>
-    <address>
-        <ul>
-            <li>
-                <a href="https://goo.gl/maps/hByzuA5cYsDd2KVR7" target="_blank" rel="noopener noreferrer" class="footer-address">г. Киев, пр-т Леси Украинки, 26</a>
-
-            </li>
-            <li>
-                <a href="mailto:info@devstudio.com" class="footer-mail">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
-            </li>
-        </ul>
-    </address>
+        <div class="container">
+            <a href="WebStudio" class="header-web-white"><span style="color: #2196F3">Web</span>Studio</a>
+            <address>
+                <ul>
+                    <li class="footer-ul-li-adress">
+                        <a href="https://goo.gl/maps/hByzuA5cYsDd2KVR7" target="_blank" rel="noopener noreferrer" class="footer-address">г. Киев, пр-т Леси Украинки, 26</a>
+        
+                    </li>
+                    <li class="footer-ul-li" >
+                        <a href="mailto:info@devstudio.com" class="footer-mail">info@devstudio.com</a>
+                    </li>
+                    <li class="footer-ul-li">
+                        <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>    
+        </div>
     </footer>
 </body>
 </html>
+
+
