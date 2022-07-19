@@ -64,7 +64,7 @@ header{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #000000;
     padding-bottom: 24px;
@@ -73,7 +73,7 @@ header{
 .header-studio{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #2196F3;
 }
@@ -82,7 +82,7 @@ header{
 .header-port-cont{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -90,7 +90,7 @@ header{
 .header-list{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em
 }
 .header-li:not(:last-child){
@@ -101,7 +101,7 @@ header{
 .header-tel{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -109,7 +109,7 @@ header{
 .header-mail{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2196F3;
     margin-right: 50px;
@@ -139,7 +139,7 @@ header{
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.7;
     
     text-align: center;
     letter-spacing: 0.06em;
@@ -242,7 +242,7 @@ border-radius: 0px 0px 4px 4px;
 .list-work{
     font-weight: 500;
     font-size: 16px;
-    line-height: 2.2px;
+    line-height: 2.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -251,7 +251,7 @@ border-radius: 0px 0px 4px 4px;
 }
 .list-work-prof{
     font-size: 16px;
-    line-height: 20.2px;
+    line-height: 2;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
@@ -262,7 +262,7 @@ border-radius: 0px 0px 4px 4px;
 .footer-address{
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -273,31 +273,32 @@ border-radius: 0px 0px 4px 4px;
 .footer-mail{
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel{
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 
 }
 
-.footer{
 
-}
-
-.header-web-white{
+.footer-web-white{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #141313;
+    color: #ffffff;
+
     padding-top: 60px;
+
+
+
 }
 .footer-ul-li-adress{
     margin-top: 20px;
@@ -310,32 +311,69 @@ border-radius: 0px 0px 4px 4px;
 
 .list-portfolio{
 font-size: 16px;
-line-height: 1.6px;
-
-
+line-height: 1.6;
 letter-spacing: 0.03em;
 color: #212121;
+display: flex;
+flex-wrap: wrap;
+column-gap: 8px;
+justify-content: center;
+padding-top: 94px;
+
+
+}
+
+.list-portfolio-li{
+background: #F5F4FA;
+border-radius: 4px;
+padding: 6px 22px ;
+pa
 }
 
 .list-portfolio-all{
     background: #2196F3;
     color: #ffffff;
 }
+.portfolio-element{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 94px;
+
+    /* justify-content: space-between; */
+}
+
+/* .work-ul-li:not(:nth-child(4n)){
+    margin-right: 30px;
+} */
+/* .work-ul-li{
+    flex-basis: calc((100%-90px/4 ));
+} */
+.portfolio-element-text{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
 
 .portfolio-application{
 font-weight: 700;
 font-size: 18px;
-line-height: 2px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
+padding-top: 20px;
 }
 
 .portfolio-application-plus{
 font-weight: 400;
 font-size: 16px;
-line-height: 1.9px;
+line-height: 1.9;
 letter-spacing: 0.03em;
 color: #757575;
+margin-top: 4px;
 }
 
 .hover-portfolio:hover, 
