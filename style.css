@@ -58,6 +58,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .header-web{
     margin-right: 93px;
@@ -111,9 +112,16 @@ header{
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2196F3;
-    margin-right: 50px;
 }
+
+.header-contact{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
 /*header */
 
 .studio{
@@ -133,7 +141,9 @@ header{
 .title{
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 30px;
 width: 696px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -200,7 +210,7 @@ color: #757575;
 }
 
 .section-img{
-    padding-bottom: 200px;
+    padding-bottom: 94px;
 }
 
 .img-work{
@@ -270,6 +280,7 @@ padding-bottom: 30px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    font-style: normal;
 }
 .footer-address-address{
     font-style: normal;
@@ -302,24 +313,21 @@ padding-bottom: 30px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #ffffff;
-
-
-
-
-
-}
-.footer-ul-li-adress{
+    display: block;
     margin-top: 20px;
 }
-.footer-ul-li{
-    margin-top: 9px;
+
+
+
+.footer-ul-li:not(:last-child){
+    margin-bottom: 9px;
 }
 
 /*====== portfolio ======*/
 
 .section-porfolio{
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .list-portfolio{
 font-size: 16px;
@@ -330,7 +338,7 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 8px;
 justify-content: center;
-margin-bottom: 200px;
+margin-bottom: 50px;
 }
 
 .list-portfolio-li{
@@ -344,7 +352,7 @@ padding: 6px 22px ;
     color: #ffffff;
 }
 .portfolio-element{
-    margin-top: 50px;
+
     display: flex;
     flex-wrap: wrap;
     column-gap: 30px;
@@ -362,6 +370,11 @@ padding: 6px 22px ;
 .portfolio-element-text{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    border-top: none;
+    padding-top: 20px;
+    padding-bottom: 20px;;
+    padding-left: 24px;;
+    padding-right: 24px;;
 }
 
 
@@ -371,7 +384,7 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
-padding-top: 20px;
+
 }
 
 .portfolio-application-plus{
